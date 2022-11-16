@@ -10,6 +10,7 @@ table {
   }
 
   .table-container {
+    border-radius: 10px;
     max-height: 60vh;
     overflow: auto;
   }
