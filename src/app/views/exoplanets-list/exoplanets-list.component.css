@@ -1,0 +1,10 @@
+h1, 
+p {
+    color: #e1eeeb
+}
+table {
+    width: 100%;
+    max-height: 60vh;
+    overflow: auto;
+
+  }

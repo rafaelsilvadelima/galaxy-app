@@ -1,0 +1,24 @@
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 15px rgb(13,12,30);
+    
+}
+.nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.nav a {
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    color: #e1eeeb;
+}
+
+.nav .active {
+    border: 1px solid #e1eeeb;
+    border-radius: 5px;
+}

@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    font-family: roboto, "Helvetica Neue", sans-serif;
+}
+.body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(4,10,23);
+    background:linear-gradient(45deg, rgb(4, 10, 23) 3%, rgb(0, 24, 72) 30%, rgb(75, 46, 133) 67%);
+    padding-top: 64px;
+}
+.container {
+    width: clamp(300px, 100%, 1200px);
+}
+
+img {
+    width: 300px;
+    filter: drop-shadow(0 0 50px rgb(107,108,112));
+}
+#planeta {
+    width: 200px;
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    animation: space;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+#cometa {
+    width: 200px;
+    position: fixed;
+    top: 100px;
+    right: 80px;
+    animation: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#estrelas {
+    width: 200px;
+    position: fixed;
+    top: 150px;
+    left: 300px;
+    animation: highlight;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+#astronauta {
+    width: 250px;
+    position: fixed;
+    bottom: 200px;
+    right: 250px;
+    animation: gravidade;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
