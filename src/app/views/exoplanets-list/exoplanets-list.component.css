@@ -13,3 +13,9 @@ table {
     max-height: 60vh;
     overflow: auto;
   }
+
+  .body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
