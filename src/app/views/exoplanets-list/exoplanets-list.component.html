@@ -45,10 +45,14 @@
           <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
         </table>
       
-        <mat-paginator [pageSizeOptions]= "[5, 10, 20]" 
-        showFirstLastButtons
-        aria-label = "Selecionar página de elementos periódicos">
-        </mat-paginator>
+        <mat-paginator #paginator 
+        [length]="100" 
+        [pageSizeOptions]="[5,10,15]"
+        aria-label="Selecione a página"
+        [pageIndex]=1
+        role="group"
+        showFirstLastButtons 
+></mat-paginator>
       </div>
       
 </div>

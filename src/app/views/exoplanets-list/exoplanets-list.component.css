@@ -8,3 +8,8 @@ table {
     overflow: auto;
 
   }
+
+  .table-container {
+    max-height: 60vh;
+    overflow: auto;
+  }
